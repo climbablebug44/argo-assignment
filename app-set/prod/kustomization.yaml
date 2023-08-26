@@ -9,16 +9,15 @@ patches:
       - op: replace
         path: /spec/destination
         value:
-          server: https://34.93.114.1
-          namespace: prod
+          server: "https://34.93.114.1"
+          namespace: dev
     target:
       kind: Application
-
   - patch: |-
       - op: replace
-        path:  /spec/template/spec/destination
+        path: /spec/template/spec/destination
         value:
-          server: https://34.93.114.1
-          namespace: prod
+          server: "https://34.93.114.1"
+          namespace: dev
     target:
       kind: ApplicationSet
