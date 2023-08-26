@@ -12,7 +12,7 @@ spec:
       #   path: charts/hello-world
 
       - name: guestbook
-        repo: https://github.com/argoproj/argocd-example-apps/tree/master
+        repo: https://github.com/argoproj/argocd-example-apps.git
         path: helm-guestbook
 
       # - name: bitnami
