@@ -7,10 +7,10 @@ spec:
   - list:
       elements:
       # shubham cluster
-      - cluster: dev
+      #- cluster: dev
         #url: https://kubernetes.default.svc
       # ashwin cluster
-      # - cluster: prod
+        - cluster: prod
         #url: https://34.93.114.1
   template:
     metadata:
