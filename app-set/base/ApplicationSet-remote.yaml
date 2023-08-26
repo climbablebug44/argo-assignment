@@ -7,17 +7,17 @@ spec:
   - list:
       elements:
       # random git repos pulling from git
-      - name: example
-        repo: https://github.com/helm/examples
-        path: charts/hello-world
+      # - name: example
+      #   repo: https://github.com/helm/examples
+      #   path: charts/hello-world
 
       - name: guestbook
         repo: https://github.com/argoproj/argocd-example-apps/tree/master
         path: helm-guestbook
 
-      - name: bitnami
-        repo: https://github.com/bitnami/charts
-        path: bitnami/haproxy
+      # - name: bitnami
+      #   repo: https://github.com/bitnami/charts
+      #   path: bitnami/haproxy
 
   template:
     metadata:
