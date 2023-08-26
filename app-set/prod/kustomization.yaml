@@ -9,7 +9,7 @@ patches:
       - op: replace
         path: /spec/destination
         value:
-          serverURL: https://34.93.114.1
+          server: https://34.93.114.1
           namespace: prod
     target:
       kind: Application
