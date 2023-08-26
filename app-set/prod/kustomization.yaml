@@ -9,7 +9,7 @@ patches:
       - op: replace
         path: /spec/destination
         value:
-          server: http://34.100.180.218:8080
+          server: https://34.93.114.1
           namespace: prod
     target:
       kind: Application
@@ -18,7 +18,7 @@ patches:
       - op: replace
         path:  /spec/template/spec/destination
         value:
-          server: http://34.100.180.218:8080
+          server: https://34.93.114.1
           namespace: prod
     target:
       kind: ApplicationSet
