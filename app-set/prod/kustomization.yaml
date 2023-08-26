@@ -10,7 +10,7 @@ patches:
         path: /spec/destination
         value:
           server: "https://34.93.114.1"
-          namespace: dev
+          namespace: prod
     target:
       kind: Application
   - patch: |-
@@ -18,6 +18,6 @@ patches:
         path: /spec/template/spec/destination
         value:
           server: "https://34.93.114.1"
-          namespace: dev
+          namespace: prod
     target:
       kind: ApplicationSet
