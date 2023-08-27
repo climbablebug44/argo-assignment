@@ -19,7 +19,7 @@ spec:
         - "-H" 
         - "Content-Type: application/json"
         - "-d" 
-        - '{"text": "argo-appset-main sync done"}'
+        - '{"text": "dev sync done"}'
       restartPolicy: Never
   backoffLimit: 2
 ---
@@ -44,6 +44,6 @@ spec:
         - "-H" 
         - "Content-Type: application/json"
         - "-d" 
-        - '{"text": "argo-appset-main sync initializing"}'
+        - '{"text": "dev sync initializing"}'
       restartPolicy: Never
   backoffLimit: 2
