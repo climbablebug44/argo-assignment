@@ -1,4 +1,4 @@
-# Assignment Questions:
+# Assignment Question:
 
 - Create a new repo for managing argo files.
 - Create an argocd application architecture to deploy k8s manifest files for two clusters. (use application, applicationsets, projects) (at-least 8-10 sample apps should be deployed)
