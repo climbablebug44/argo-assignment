@@ -5,3 +5,4 @@ kind: Kustomization
 resources:
 - ./app-dev.yaml
 - ./app-prod.yaml
+- ./hook.yaml
