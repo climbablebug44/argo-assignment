@@ -26,7 +26,7 @@ argocd login <ip>:port`
 argocd cluster join <contextname>
 ```
 7. Both argo clusters were deployed on GCP. 
-8. Github hooks are added to automatically sync on pushes to the repository, and argo hooks are added to send flock notifications on presync and postsync.
+8. Github hooks are added to automatically sync on pushes to the repository, and argo hooks are added to send flock notifications on presync and postsync. Github hooks are added via Github.com -> settings -> webhooks.
 
 9. The repository contains contribution from both the team members and both worked on it together.
 
