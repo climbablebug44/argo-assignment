@@ -10,7 +10,7 @@ spec:
       elements:
       # random git repos pulling from git
       - name: mysql
-      # - name: redis
+      - name: redis
   template:
     metadata:
       name: '{{name}}-app'

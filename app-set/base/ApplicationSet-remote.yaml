@@ -16,9 +16,9 @@ spec:
         repo: https://github.com/argoproj/argocd-example-apps.git
         path: helm-guestbook
 
-      # - name: bitnami
-      #   repo: https://github.com/bitnami/charts
-      #   path: bitnami/haproxy
+      - name: bitnami
+        repo: https://github.com/bitnami/charts
+        path: bitnami/haproxy
 
   template:
     metadata:
