@@ -30,7 +30,7 @@ spec:
         path: '{{path}}'
         # create two folders with cluster name prod and dev. this generator will use them
       destination:
-        server: ""
+        server: https://kubernetes.default.svc
         namespace: default
       syncPolicy:
         automated:

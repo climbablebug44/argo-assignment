@@ -3,6 +3,5 @@ kind: Kustomization
 
 
 resources:
+- ./appset.yaml
 - ./hook.yaml
-- ./app-dev.yaml
-- ./app-prod.yaml

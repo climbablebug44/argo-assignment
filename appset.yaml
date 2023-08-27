@@ -1,26 +1,30 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: multi-appset-local
+  name: guestbook
 spec:
   generators:
   - list:
       elements:
-      # random git repos pulling from git
-      - name: mysql
-      # - name: redis
+      # shubham cluster
+      - cluster: dev
+        url: https://kubernetes.default.svc
+      # ashwin cluster
+      - cluster: prod
+        url: https://34.93.114.1
   template:
     metadata:
-      name: '{{name}}-app'
+      name: '{{cluster}}-guestbook'
     spec:
       project: default
       source:
         repoURL: https://github.com/climbablebug44/argo-assignment
         targetRevision: HEAD
-        path: 'app-set/base/applications/{{name}}'
+        path: app-set/{{cluster}}
         # create two folders with cluster name prod and dev. this generator will use them
+
       destination:
-        server: "https://kubernetes.default.svc"
+        server: '{{url}}'
         namespace: default
       syncPolicy:
         automated:

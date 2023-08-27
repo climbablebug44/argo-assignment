@@ -7,17 +7,16 @@ resources:
 patches:
   - patch: |-
       - op: replace
-        path: /spec/destination
+        path: /metadata
         value:
-          server: "https://kubernetes.default.svc"
           namespace: prod
     target:
       kind: Application
+
   - patch: |-
       - op: replace
-        path: /spec/template/spec/destination
+        path: /metadata
         value:
-          server: "https://kubernetes.default.svc"
           namespace: prod
     target:
       kind: ApplicationSet
