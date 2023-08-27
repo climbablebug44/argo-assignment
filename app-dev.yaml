@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: default
-    cluster: https://kubernetes.default.svc
+    server: https://kubernetes.default.svc
   project: default
   source:
     path: app-set/dev/

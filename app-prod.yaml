@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     namespace: default
-    cluster: https://34.93.114.1
+    server: https://34.93.114.1
   project: default
   source:
     path: app-set/prod/
