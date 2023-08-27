@@ -11,9 +11,9 @@ deployment.yaml can be modified for different apps, currently nginx  ✅
 
 All the sync should be automated. ✅ (while creating in argocd can be done in the UI/cmd)
 
-⭐ Add git webhook which can trigger the sync as soon as any changes are pushed to repo.
-need to add github token to argocd values.yaml, check values.argo.yaml
-then add hook to github repo
+Add git webhook which can trigger the sync as soon as any changes are pushed to repo. ✅
+need to add github token to argocd values.yaml, check values.argo.yaml ✅
+then add hook to github repo ✅
 
 Should get flock msg for each step of sync Pre, post etc. ✅
 
