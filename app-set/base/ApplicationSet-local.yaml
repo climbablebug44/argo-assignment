@@ -2,6 +2,8 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: multi-appset-local
+  namespace: default
+
 spec:
   generators:
   - list:

@@ -8,16 +8,14 @@ resources:
 patches:
   - patch: |-
       - op: replace
-        path: /metadata
-        value:
-          namespace: prod
+        path: /metadata/namespace
+        value: prod
     target:
       kind: Application
 
   - patch: |-
       - op: replace
-        path: /metadata
-        value:
-          namespace: prod
+        path: /metadata/namespace
+        value: prod
     target:
       kind: ApplicationSet
