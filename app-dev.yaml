@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: dev-app
+  namespace: default
+spec:
+  destination:
+    namespace: default
+    cluster: https://kubernetes.default.svc
+  project: default
+  source:
+    path: app-set/dev/
+    repoURL: https://github.com/climbablebug44/argo-assignment
+    targetRevision: HEAD
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      prune: true
+      selfHeal: false
