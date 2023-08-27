@@ -3,8 +3,6 @@ kind: Application
 metadata:
   name: dev-app
   namespace: default
-  annotations:
-    argocd.argoproj.io/hook: PostSync
 spec:
   destination:
     namespace: default

@@ -15,7 +15,7 @@ spec:
         - "curl"
         - "-X"
         - "POST"
-        - "https://api.flock.com/hooks/sendMessage/e511f324-c939-4f6e-8787-2e653e2642d1"
+        - "https://api.flock.com/hooks/sendMessage/fbd49c97-f227-42e9-98ab-dc6e587c7b33"
         - "-H" 
         - "Content-Type: application/json"
         - "-d" 
