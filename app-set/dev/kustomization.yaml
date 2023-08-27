@@ -4,6 +4,7 @@ kind: Kustomization
 
 resources:
 - ../base/
+- ./dev_hook.yaml
 
 patches:
   - patch: |-
