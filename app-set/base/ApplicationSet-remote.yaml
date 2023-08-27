@@ -7,9 +7,9 @@ spec:
   - list:
       elements:
       # random git repos pulling from git
-      # - name: example
-      #   repo: https://github.com/helm/examples
-      #   path: charts/hello-world
+      - name: example
+        repo: https://github.com/helm/examples
+        path: charts/hello-world
 
       - name: guestbook
         repo: https://github.com/argoproj/argocd-example-apps.git
