@@ -9,7 +9,7 @@ patches:
       - op: replace
         path: /spec/destination
         value:
-          server: "https://34.93.114.1"
+          server: "https://kubernetes.default.svc"
           namespace: prod
     target:
       kind: Application
@@ -17,7 +17,7 @@ patches:
       - op: replace
         path: /spec/template/spec/destination
         value:
-          server: "https://34.93.114.1"
+          server: "https://kubernetes.default.svc"
           namespace: prod
     target:
       kind: ApplicationSet
