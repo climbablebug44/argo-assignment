@@ -31,5 +31,5 @@ argocd cluster join <contextname>
 9. The repository contains contribution from both the team members and both worked on it together.
 
 # Resource Links:
-- Screenshots: https://drive.google.com/drive/folders/1x0QRnzonN2FHikaK8HLmpwhPNKO8yZAvoo?usp=sharing
+- Screenshots: https://drive.google.com/drive/folders/1x0QRnzN2FHikaK8HLmpwhPNKO8yZAvoo?usp=sharing
 - Githook working video: https://drive.google.com/file/d/1BlqVFrnltoZTeInKGfnbG898bS3qthig/view?usp=drive_link
