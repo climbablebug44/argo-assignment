@@ -8,6 +8,5 @@
 - Should get flock msg for each step of sync Pre, post etc.
 
 # Resource Links:
-- Repo URL: https://github.com/climbablebug44/argo-assignment.git
 - Screenshots: https://drive.google.com/drive/folders/1x0QRnzN2FHikaK8HLmpwhPNKO8yZAvoo?usp=sharing
 - Githook working video: https://drive.google.com/file/d/1BlqVFrnltoZTeInKGfnbG898bS3qthig/view?usp=drive_link
