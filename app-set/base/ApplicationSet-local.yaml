@@ -8,8 +8,7 @@ spec:
   generators:
   - list:
       elements:
-      # random git repos pulling from git
-      - name: mysql
+      # - name: mysql
       - name: redis
   template:
     metadata:

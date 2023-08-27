@@ -14,7 +14,8 @@
 3. Both prod and dev have base in appset/base which deploys 3 kind of apps:
     * both prod and dev are deployed on separate namespaces named prod and dev respectively.
     * Single Application - nginx
-    * Appset with resource in same repo - pulled some helm charts using command like `helm pull bitnami/mysql --untar` into the directory
+    * Appset with resource in same repo - pulled some helm charts using command like `helm pull bitnami/mysql --untar` into the directory. 
+    * Reduced the number of deployments as it was not deploying properly and slowed the cluster due to resource constraints.
     * Appset with resources from remote repo - some repos containing heml charts/k8s deployments
 4. prod is deployed on Ashwin's cluster and dev on Shubham's cluster. The repo is deployed on shubham's Argo deployment. 
 5. Argo is deployed using argo helm charts and creating a Loadbalancer to expose the argo endpoint.
